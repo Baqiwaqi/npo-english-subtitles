@@ -153,6 +153,12 @@ translate-extension/
 - [Ollama](https://ollama.ai/) - Local LLM inference
 - [Google Gemini](https://ai.google.dev/) - Cloud LLM API
 
+## Tested On
+
+- **Hardware**: MacBook Pro M3
+- **Ollama Model**: `fast-trans` (custom model based on `llama3.2:3b`)
+- **Performance**: ~400-500ms per subtitle translation
+
 ## License
 
 MIT
@@ -160,4 +166,7 @@ MIT
 ## Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request.
-# npo-english-subtitles
+
+## Author
+
+Tim Bouma
