@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <rect width="128" height="128" rx="16" fill="#FF6B35"/>
+  <text x="64" y="85" font-family="Arial" font-size="60" font-weight="bold" text-anchor="middle" fill="white">NL</text>
+  <text x="64" y="115" font-family="Arial" font-size="20" text-anchor="middle" fill="white">EN</text>
+</svg>

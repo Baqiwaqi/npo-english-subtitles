@@ -1,0 +1,52 @@
+{
+  "name": "npo-translate",
+  "displayName": "NPO English Subtitles",
+  "version": "0.0.1",
+  "description": "Translate NPO Start Dutch subtitles to English",
+  "author": "Tim Bouma",
+  "scripts": {
+    "dev": "plasmo dev",
+    "build": "plasmo build",
+    "package": "plasmo package"
+  },
+  "dependencies": {
+    "@google/genai": "^1.30.0",
+    "@plasmohq/messaging": "^0.6.2",
+    "@plasmohq/storage": "^1.11.0",
+    "plasmo": "0.89.2",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "sharp": "^0.34.5"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.268",
+    "@types/node": "20.11.5",
+    "@types/react": "18.2.48",
+    "@types/react-dom": "18.2.18",
+    "typescript": "5.3.3"
+  },
+  "manifest": {
+    "host_permissions": [
+      "https://*.npo.nl/*",
+      "https://*.npostart.nl/*",
+      "https://generativelanguage.googleapis.com/*",
+      "https://api.openai.com/*",
+      "http://localhost:*/*"
+    ],
+    "permissions": [
+      "storage",
+      "activeTab",
+      "tabCapture"
+    ]
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "@parcel/watcher",
+      "@swc/core",
+      "esbuild",
+      "lmdb",
+      "msgpackr-extract",
+      "sharp"
+    ]
+  }
+}
