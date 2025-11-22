@@ -26,7 +26,7 @@ For cloud translation:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/npo-english-subtitles.git
+   git clone https://github.com/baqiwaqi/npo-english-subtitles.git
    cd npo-english-subtitles
    ```
 
